@@ -1,0 +1,24 @@
+/*header color*/
+.navbar.navbar-default {
+	background-color:#9f8872;
+}
+/*Link styling*/
+.container-fluid .nav.navbar-nav.navbar-right li a{
+	color:#ffffff;
+	font-size:11.5px;
+}
+/*Hovering over links to show activity*/
+.container-fluid .nav.navbar-nav.navbar-right li a:hover{
+	color:#000000;
+}
+/*background image*/
+body {
+	background-image: url(images/fishing_net.jpg);
+}
+@media screen and (max-width: 500px) {
+    .container-fluid .nav.navbar-nav.navbar-right {
+        display:block;
+        margin:0 auto;
+        
+    }
+}
